@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listen to My Audio Files</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f9f9f9;
+            padding: 20px;
+            margin: 0;
+        }
+        h1 {
+            color: #333;
+            margin-bottom: 20px;
+        }
+        .audio-player {
+            margin: 20px auto;
+            max-width: 300px;
+            background-color: #fff;
+            padding: 10px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .audio-player audio {
+            width: 100%;
+        }
+        .audio-title {
+            font-size: 1.2em;
+            margin-bottom: 10px;
+            color: #555;
+        }
+        /* Remove extra space or unwanted slashes */
+        .audio-player + .audio-player {
+            margin-top: 10px; /* Ensure there's no big gap between players */
+        }
+    </style>
+</head>
+<body>
+    <h1>Duo Havssalt, demos</h1>
+
+    <!-- Audio Player 1 -->
+    <div class="audio-player">
+        <p class="audio-title">Cant dels Ocells</p>
+        <audio controls>
+            <source src="https://github.com/andyspirosp/Havssalt/raw/refs/heads/main/Cant%20dels%20ocells.m4a" type="audio/mpeg">
+        </audio>
+    </div>
+
+    <!-- Audio Player 2 -->
+    <div class="audio-player">
+        <p class="audio-title">Melodia en La Menor</p>
+        <audio controls>
+            <source src="https://github.com/andyspirosp/Havssalt/raw/refs/heads/main/Melodia%20en%20La%20Menor.m4a" type="audio/mpeg">
+        </audio>
+    </div>
+
+</body>
+</html>
